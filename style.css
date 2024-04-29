@@ -54,9 +54,6 @@ ul li {
   pointer-events: none;
 }
 
-.dark-mode .dot-grid {
-  background: linear-gradient(135deg, #161b22, #0d1117);
-}
 
 .container {
   width: calc(100%); /* Adjust width to compensate for scrollbar width and distance from right */
