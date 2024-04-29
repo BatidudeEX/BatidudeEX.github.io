@@ -15,6 +15,27 @@ body {
   color: #fff;
 }
 
+a {
+  color: white;
+}
+
+ ul li {
+  margin-right: 10px;
+}
+img {
+  height: 275px;
+  border-radius: 12px;
+  margin-right: 10px;
+  float: left;
+}
+
+p {
+  text-align: justify;
+}
+ul li {
+  text-align: justify;
+}
+
 .dot-grid {
   position: fixed;
   top: 0;
@@ -58,13 +79,13 @@ body {
 
 .content::-webkit-scrollbar-track {
   background: #212121;
-  border-radius: 10px; /* Adjust border radius to match thumb */
+  border-radius: 12px; /* Adjust border radius to match thumb */
   height: 20px; /* Adjust height of the scrollbar track */
 }
 
 .content::-webkit-scrollbar-thumb {
   background: #888;
-  border-radius: 10px; /* Adjust border radius to make ends round */
+  border-radius: 12px; /* Adjust border radius to make ends round */
 }
 
 .content::-webkit-scrollbar-thumb:hover {
@@ -84,7 +105,7 @@ header {
   background-color: #007bff; /* Blue color */
   color: #fff;
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 12px;
   font-size: 18px;
   position: fixed;
   top: 10px;
@@ -110,7 +131,7 @@ h1 {
   color: #fff;
   background-color: #007bff; /* Blue color */
   border: none;
-  border-radius: 5px;
+  border-radius: 12px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
